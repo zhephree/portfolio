@@ -1,0 +1,48 @@
+{
+    "env": {
+        "prod": {
+            "ftpConfig": {
+                "host": "205.186.175.237",
+                "user": "zhephree.com",
+                "password": "zombies!unite",
+                "parallel": 3,
+                "maxConnections": 2,
+                "log": {}
+            },
+            "path": {
+                "local": ".",
+                "remote": "domains/geoffreygauchet.com/html",
+                "cachebust_file": "index.php",
+                "cachebust_path": "."
+            },
+            "since": "2019-03-30T01:45:15.507Z"
+        }
+    },
+    "global": {
+        "patterns": [
+            "**",
+            ".*",
+            "!.editorconfig",
+            "!.gitattributes",
+            "!.gitignore",
+            "!deploy.json",
+            "!gulpfile.js",
+            "!node_modules/**",
+            "!node_modules/.*",
+            "!node_modules/",
+            "!package.json",
+            "!phpinfo.php",
+            "!newtest.php",
+            "!mailtest.php",
+            "!data/**",
+            "!data/.*",
+            "!data/",
+            "!.git/**",
+            "!.git/.*",
+            "!.git/",
+            "!portfolio/**",
+            "!portfolio/.*",
+            "!portfolio/"
+        ]
+    }
+}
