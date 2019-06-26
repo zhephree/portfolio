@@ -35,7 +35,7 @@ body.personal {
 	top: 0;
 	left: 0;
 	bottom: 0;
-	width: 75px;
+	width: 80px;
 	z-index: 20000;
 	transition: width 0.5s, height 0.5s;
 	overflow: hidden;
